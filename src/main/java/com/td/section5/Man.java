@@ -9,6 +9,10 @@ package com.td.section5;
 
     private boolean language;
 
+    public Man(int age) {
+        super(age);
+    }
+
     public boolean isLanguage() {
         return language;
     }
@@ -17,20 +21,5 @@ package com.td.section5;
         this.language = language;
     }
 
-    /**
-     * 文档注释
-     * 可以生成文档
-     * 调用方法时可以查看
-     * @param args
-     */
-    public static void main(String[] args) {
-        Man A = new Man();
-        Man B = new Man();
-        Animal animal = new Man();
-        A.setLanguage(true);
-        B.setLanguage(false);
-        System.out.println(A.getClass()+""+ A.getClass().equals(B.getClass()));
-
-    }
 
 }
