@@ -8,7 +8,11 @@ import org.junit.Test;
  */
 public class Animal {
 
-    protected int age;
+    private int age;
+
+    public int num;
+
+    private int sex;
 
     public int getAge() {
         return age;
@@ -41,5 +45,9 @@ public class Animal {
     @Test
     public void testFinal() {
         System.out.println("Test ...");
+    }
+
+    private void sayHello(){
+        System.out.println("Hello----");
     }
 }
