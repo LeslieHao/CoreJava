@@ -1,15 +1,11 @@
-package com.td.section5;
+package com.td.section5_extends;
 
 
-import com.sun.org.apache.bcel.internal.generic.ARRAYLENGTH;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.ConcurrentModificationException;
 
 
 /**

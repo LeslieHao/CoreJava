@@ -1,4 +1,4 @@
-package com.td.section5;
+package com.td.section5_extends;
 
 import org.junit.Test;
 
@@ -17,7 +17,7 @@ public class Reflection {
 //        System.out.println(reflection.getClass().getName());
 //        System.out.println(reflection.getClass().getMethods());
         // 通过全类名 创建对象
-        String className = "com.td.section5.Reflection";
+        String className = "com.td.section5_extends.Reflection";
         try {
             Reflection reflection1 = (Reflection) Class.forName(className).newInstance();
             System.out.println(reflection1.getClass());
@@ -28,7 +28,7 @@ public class Reflection {
 
     @Test
     public void test2() throws ClassNotFoundException {
-        String className = "com.td.section5.Animal";
+        String className = "com.td.section5_extends.Animal";
         Class cls = Class.forName(className);
         Method[] methods = cls.getDeclaredMethods(); // 获取所有方法
         cls.getMethods();// 获取所有公开的方法
@@ -53,7 +53,7 @@ public class Reflection {
     @Test
     public void test3() throws ClassNotFoundException, NoSuchFieldException, IllegalAccessException {
         Animal animal = new Animal(99);
-        String className = "com.td.section5.Animal";
+        String className = "com.td.section5_extends.Animal";
         Class cls = Class.forName(className);
         Field field = cls.getDeclaredField("age");
         field.setAccessible(true); //所有域都可以被访问

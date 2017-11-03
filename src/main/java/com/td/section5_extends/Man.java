@@ -1,11 +1,11 @@
-package com.td.section5;
+package com.td.section5_extends;
 
 
 /**
  * DESC:
  * Created by Hh on 2017/10/19
  */
- class Man extends Animal {
+public class Man extends Animal {
 
     private boolean language;
 

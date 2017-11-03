@@ -1,4 +1,4 @@
-package com.td.section5;
+package com.td.section5_extends;
 
 import org.junit.Test;
 
@@ -6,7 +6,7 @@ import org.junit.Test;
  * DESC:
  * Created by Hh on 2017/10/19
  */
-public class Animal {
+public class Animal implements Cloneable{
 
     private int age;
 
@@ -44,7 +44,7 @@ public class Animal {
 
     @Test
     public void testFinal() {
-        System.out.println("Test ...");
+        System.out.println("ImplementsDemo ...");
     }
 
     private void sayHello(){

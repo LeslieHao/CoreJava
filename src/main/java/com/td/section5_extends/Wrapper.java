@@ -1,8 +1,6 @@
-package com.td.section5;
+package com.td.section5_extends;
 
 import org.junit.Test;
-
-import java.text.NumberFormat;
 
 /**
  * DESC: 包装类
