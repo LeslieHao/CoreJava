@@ -2,7 +2,6 @@ package com.td.section6_interface;
 
 import com.td.section5_extends.Animal;
 import org.junit.Test;
-
 /**
  * DESC: 克隆
  * Created by Hh on 2017/11/3
