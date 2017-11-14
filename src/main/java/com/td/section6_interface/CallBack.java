@@ -16,9 +16,8 @@ import java.util.Date;
 public class CallBack {
 
 
-
     @Test
-    public void test1(){
+    public void test1() {
         ActionListener actionListener = new TimePrinter();
         Timer timer = new Timer(1000, actionListener);
         timer.start();
@@ -27,9 +26,9 @@ public class CallBack {
     }
 
     @Test
-    public void test2(){
+    public void test2() {
 
-        String[] strs = new String[]{"222", "333", "1111","ssaa","sssss"};
+        String[] strs = new String[]{"222", "333", "1111", "ssaa", "sssss"};
         Arrays.sort(strs);
         System.out.println(Arrays.toString(strs));
     }

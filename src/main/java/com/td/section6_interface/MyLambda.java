@@ -1,5 +1,6 @@
 package com.td.section6_interface;
 
+import com.td.section5_extends.Animal;
 import org.junit.Test;
 
 import javax.swing.*;
@@ -38,7 +39,8 @@ public class MyLambda {
 
     }
 
-    class LengthComparator implements Comparator<String> {
+
+     class LengthComparator implements Comparator<String>  {
         @Override
         public int compare(String o1, String o2) {
             return o1.length() - o2.length();
