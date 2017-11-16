@@ -2,7 +2,6 @@ package com.td.section7_exception;
 
 import org.junit.Test;
 
-import java.io.IOException;
 
 /**
  * DESC:
