@@ -8,6 +8,6 @@ import org.apache.log4j.Logger;
  * Created by Hh on 2017/11/16
  */
 public class BaseObject {
-    protected Logger log = Logger.getLogger(getClass());
+    protected  Logger log = Logger.getLogger(this.getClass());
 
 }
