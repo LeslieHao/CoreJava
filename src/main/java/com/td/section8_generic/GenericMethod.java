@@ -1,9 +1,15 @@
 package com.td.section8_generic;
 
+import com.sun.deploy.util.StringUtils;
 import com.td.BaseObject;
 import org.junit.Test;
+import sun.applet.Main;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * DESC: 泛型方法
