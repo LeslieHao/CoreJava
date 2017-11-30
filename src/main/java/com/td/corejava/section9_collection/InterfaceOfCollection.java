@@ -12,7 +12,7 @@ import java.util.TreeSet;
  * DESC: 集合框架中的接口
  * Created by Hh on 2017/11/21
  */
-public class IterfaceOfCollection extends BaseObject {
+public class InterfaceOfCollection extends BaseObject {
 
     @Test
     public void test1(){
