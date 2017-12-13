@@ -65,6 +65,7 @@ public class mLinkedList extends BaseObject {
         log.info(list);
 
         log.info(4>>>1);
+
     }
 
 
