@@ -2,6 +2,7 @@ package com.td.corejava.section14_multithreading;
 
 import com.td.corejava.BaseObject;
 import java.util.Date;
+import org.junit.Test;
 
 /**
  * DESC: 什么是线程 synchronized 用法
@@ -66,7 +67,6 @@ public class mSynchronized extends BaseObject {
       doSomething();
     }
   }
-
 
   public static void main(String[] args) throws InterruptedException {
     mSynchronized whatIsThread = new mSynchronized();
