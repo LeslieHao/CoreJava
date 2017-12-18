@@ -2,7 +2,6 @@ package com.td.corejava.section14_multithreading;
 
 import com.td.corejava.BaseObject;
 import java.util.Date;
-import org.junit.Test;
 
 /**
  * DESC: 什么是线程 synchronized 用法
